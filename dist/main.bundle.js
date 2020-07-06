@@ -116,7 +116,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/getUrl.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./assets/images/loveBg.jpg */ \"./src/assets/images/loveBg.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./assets/images/lovebgsmall.jpg */ \"./src/assets/images/lovebgsmall.jpg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\n// Module\nexports.push([module.i, \".loveday[data-v-7ba5bd90] {\\n  color: red;\\n  margin: 0 20px;\\n  font-size: 30px;\\n}\\n@media (min-width: 751px) {\\n.container[data-v-7ba5bd90] {\\n    width: 100vw;\\n    height: 100vh;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-size: 100% 100%;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    flex-direction: column;\\n}\\n.container h1[data-v-7ba5bd90] {\\n      color: #393e46;\\n      margin: 10px 0 10px 200px;\\n      -moz-user-select: none;\\n      -khtml-user-select: none;\\n      user-select: none;\\n}\\n}\\n@media (max-width: 750px) {\\n.container[data-v-7ba5bd90] {\\n    width: 100vw;\\n    height: 100vh;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n    background-size: 100% 100%;\\n}\\n.container h1[data-v-7ba5bd90] {\\n      color: #393e46;\\n      -moz-user-select: none;\\n      -khtml-user-select: none;\\n      user-select: none;\\n}\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_sass-loader@8.0.2@sass-loader/dist/cjs.js!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/_css-loader@3.6.0@css-loader/dist/runtime/getUrl.js */ \"./node_modules/_css-loader@3.6.0@css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./assets/images/loveBgg.png */ \"./src/assets/images/loveBgg.png\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./assets/images/l.jpg */ \"./src/assets/images/l.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./assets/images/smalllove.jpg */ \"./src/assets/images/smalllove.jpg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\n// Module\nexports.push([module.i, \".loveday[data-v-7ba5bd90] {\\n  color: red;\\n  margin: 0 20px;\\n  font-size: 30px;\\n}\\n@media (min-width: 800px) {\\n.container[data-v-7ba5bd90] {\\n    width: 100vw;\\n    height: 100vh;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-size: cover;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    flex-direction: column;\\n}\\n.container h1[data-v-7ba5bd90] {\\n      color: #393e46;\\n      margin: 10px 0 10px 200px;\\n      -moz-user-select: none;\\n      -khtml-user-select: none;\\n      user-select: none;\\n}\\n}\\n@media (max-width: 799px) {\\n.container[data-v-7ba5bd90] {\\n    width: 100vw;\\n    height: 100vh;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n    background-size: 100% 100%;\\n}\\n.container h1[data-v-7ba5bd90] {\\n      color: #393e46;\\n      -moz-user-select: none;\\n      -khtml-user-select: none;\\n      user-select: none;\\n}\\n}\\n@media (min-width: 601px) {\\n.container[data-v-7ba5bd90] {\\n    width: 100vw;\\n    height: 100vh;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n    background-size: 100% 100%;\\n}\\n.container h1[data-v-7ba5bd90] {\\n      color: #393e46;\\n      -moz-user-select: none;\\n      -khtml-user-select: none;\\n      user-select: none;\\n}\\n}\\n@media (max-width: 600px) {\\n.container[data-v-7ba5bd90] {\\n    width: 100vw;\\n    height: 100vh;\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n    background-size: 100% 100%;\\n    display: flex;\\n    align-items: center;\\n    flex-direction: column;\\n}\\n.container h1[data-v-7ba5bd90] {\\n      color: #faf0af;\\n      -moz-user-select: none;\\n      -khtml-user-select: none;\\n      user-select: none;\\n      font-size: 22px;\\n      padding: 20px 20px;\\n}\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/_css-loader@3.6.0@css-loader/dist/cjs.js!./node_modules/_vue-loader@15.9.3@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_sass-loader@8.0.2@sass-loader/dist/cjs.js!./node_modules/_vue-loader@15.9.3@vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -1942,27 +1942,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 
 /***/ }),
 
-/***/ "./src/assets/images/loveBg.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/images/loveBg.jpg ***!
-  \**************************************/
+/***/ "./src/assets/images/l.jpg":
+/*!*********************************!*\
+  !*** ./src/assets/images/l.jpg ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1085fb090a3dcdff8caaadff8297c59d.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/loveBg.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a073b864074ebcaa49040fedfc609753.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/l.jpg?");
 
 /***/ }),
 
-/***/ "./src/assets/images/lovebgsmall.jpg":
-/*!*******************************************!*\
-  !*** ./src/assets/images/lovebgsmall.jpg ***!
-  \*******************************************/
+/***/ "./src/assets/images/loveBgg.png":
+/*!***************************************!*\
+  !*** ./src/assets/images/loveBgg.png ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"b6c52c6f11f38d1f9e0eddd26955faec.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/lovebgsmall.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1e75de14117067dcd64f80cdc1ec673e.png\");\n\n//# sourceURL=webpack:///./src/assets/images/loveBgg.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/smalllove.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/smalllove.jpg ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"496ce86271435ceab2baec82659d8405.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/smalllove.jpg?");
 
 /***/ }),
 

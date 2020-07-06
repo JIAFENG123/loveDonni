@@ -70,12 +70,12 @@ export default {
   margin: 0 20px;
   font-size: 30px;
 }
-@media (min-width: 751px) {
+@media (min-width: 800px){
   .container {
     width: 100vw;
     height: 100vh;
-    background-image: url("./assets/images/loveBg.jpg");
-    background-size: 100% 100%;
+    background-image: url("./assets/images/loveBgg.png");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,17 +89,50 @@ export default {
     }
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 799px) {
   .container {
     width: 100vw;
     height: 100vh;
-    background-image: url("./assets/images/lovebgsmall.jpg");
+    background-image: url("./assets/images/l.jpg");
     background-size: 100% 100%;
     h1 {
       color: #393e46;
       -moz-user-select: none;
       -khtml-user-select: none;
       user-select: none;
+    }
+  }
+}
+@media (min-width: 601px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/images/l.jpg");
+    background-size: 100% 100%;
+    h1 {
+      color: #393e46;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      user-select: none;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/images/smalllove.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      color: #faf0af;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      user-select: none;
+      font-size: 22px;
+      padding: 20px 20px;
     }
   }
 }
