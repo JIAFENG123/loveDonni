@@ -20,7 +20,7 @@ import './index.scss'
 import App from "./App.vue";
 import './assets/js/click_love'
 Vue.config.productionTip = false;
-
+new WOW().init();
 new Vue({
     render: (h) => h(App),
 }).$mount("#app");
