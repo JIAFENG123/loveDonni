@@ -18,7 +18,7 @@
 import Vue from "vue";
 import './index.scss'
 import App from "./App.vue";
-import './assets/js/click_love'
+import './js/click_love'
 Vue.config.productionTip = false;
 new WOW().init();
 new Vue({

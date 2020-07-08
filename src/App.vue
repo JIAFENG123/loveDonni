@@ -1,28 +1,51 @@
 <template>
   <div class="container">
-    <video ref="video" src="src/assets/music/chunfengshili.mp3" controls="controls" hidden="hidden" autoplay="autoplay"  loop="loop"> </video>
+    <video
+      ref="video"
+      src="./assets/music/chunfengshili.mp3"
+      controls="controls"
+      hidden="hidden"
+      autoplay="autoplay"
+      loop="loop"
+    ></video>
     <!-- <h1>董 妮 <==========> 贾 峰</h1> -->
     <h1 class="now">{{ fromLove }}</h1>
     <div class="headpic">
-       <img src="src/assets/images/xgg.jpg"  class="wow bounceInLeft our_headpic" alt="">
-       <img src="src/assets/images/donni.jpg"  class="wow bounceInRight our_headpic" alt="">
+      <img
+        src="./assets/images/xgg.jpg"
+        class="wow bounceInLeft our_headpic"
+        alt=""
+      />
+      <img
+        src="./assets/images/donni.jpg"
+        class="wow bounceInRight our_headpic"
+        alt=""
+      />
     </div>
-    <img :src="'src/assets/images/ourseleves.jpg'" class="wow fadeInLeftBig our_ourselves" alt="我们">
-    
+    <img
+      src="./assets/images/ourseleves.jpg"
+      class="wow fadeInLeftBig our_ourselves"
+      alt="我们"
+    />
+
     <h1 class="wow bounceIn">
       我们相爱<span class="loveday">{{ loveDay }}</span
       >天啦
     </h1>
-    <img :src="'src/assets/images/ourhands.jpg'" class="wow fadeInRight our_hands" alt="我们">
-    <br>
+    <img
+      src="./assets/images/ourhands.jpg"
+      class="wow fadeInRight our_hands"
+      alt="我们"
+    />
+    <br />
     <p class="wow fadeInLeft our_desc">
-    两情若是久长时，
+      两情若是久长时，
     </p>
     <p class="wow fadeInRight our_desc">
-    又岂是朝朝暮暮。
+      又岂是朝朝暮暮。
     </p>
-    <img src="src/assets/images/tou.png" alt="" class="wow  our_note">
-    <img src="src/assets/images/tome.png" alt="" class="wow  our_note">
+    <img src="./assets/images/tou.png" alt="" class="wow  our_note" />
+    <img src="./assets/images/tome.png" alt="" class="wow  our_note" />
     <p class="wow fadeInUp our_detail">生命不止，爱情继续...</p>
   </div>
 </template>
@@ -33,7 +56,7 @@ export default {
     return {
       fromLove: "",
       loveDay: "",
-      // ourpic: require(""),
+      // ourpic: require("assets/images/ourseleves.jpg"),
     };
   },
   created() {
@@ -43,7 +66,10 @@ export default {
     }, 1000);
   },
   mounted() {
+  setTimeout(() => {
     this.$refs.video.play();
+  }, 2000);
+    
   },
   methods: {
     transTime() {

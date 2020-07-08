@@ -2,19 +2,19 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
-const resolve = dir => path.resolve(__dirname, dir);
+const resolve = dir => path.join(__dirname, dir)
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "[name].bundle.js",
+        filename: "js/[name].bundle.js",
     },
-    resolve: {
-        // 设置别名
-        alias: {
-            '@': resolve('src') // 这样配置后 @ 可以指向 src 目录
-        }
+
+    performance: {
+        hints: "warning", // 枚举
+        maxAssetSize: 300000000, // 整数类型（以字节为单位）
+        maxEntrypointSize: 500000000, // 整数类型（以字节为单位）
     },
     plugins: [
         new CleanWebpackPlugin(),
@@ -25,13 +25,23 @@ module.exports = {
         }),
         new VueLoaderPlugin(),
     ],
+    // chainWebpack: config => {
+    //     config.resolve.alias.set('@', resolve('src')) // key,value自行定义
+    // },
     resolve: {
         extensions: [".tsx", ".ts", ".js"],
+        alias: {
+            'src': path.resolve(__dirname, 'src'),
+        }
     },
     module: {
         // 关于模块配置
         rules: [
             // 模块规则（配置 loader、解析器等选项）
+            {
+                test: /\.html$/,
+                use: 'html-withimg-loader'
+            },
             {
                 test: /\.(jsx|js)?$/,
                 loader: "babel-loader",
@@ -45,7 +55,22 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
-                use: ["file-loader"],
+                use: [{
+                    loader: 'url-loader',
+                    options: {
+                        esModule: false,
+                        limit: 88,
+                        name: 'imgs/[name].[hash:8].[ext]'
+                    }
+                }]
+            },
+            {
+                test: /\.mp3$/,
+                loader: 'url-loader',
+                options: {
+                    esModule: false,
+                    limit: 88,
+                }
             },
             {
                 test: /\.vue$/,
