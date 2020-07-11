@@ -9,7 +9,7 @@
       loop="loop"
     ></video>
     <!-- <h1>董 妮 <==========> 贾 峰</h1> -->
-    <h1 class="now">{{ fromLove }}</h1>
+    <!-- <h1 class="now">{{ fromLove }}</h1> -->
     <div class="headpic">
       <img
         src="./assets/images/xgg.jpg"
@@ -214,7 +214,7 @@ export default {
       color: #383e56;
     }
     .headpic {
-      margin-top: 80px;
+      margin-top: 50px;
       .our_headpic {
         width: 60px;
         height: 60px;
